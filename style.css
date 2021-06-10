@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    
+}
+.Abcd{
+    font-size: 30px; 
+}
+#a{
+    float: left;
+    }
+#b{
+    float: right;
+}
+#get-1{
+    float: left;
+}
+#get-2{
+    float: right;
+}
+#text1{
+    float: left;
+}
+#text2{
+    float: right;
+}
+div{
+    font-size: 25px;
+}
