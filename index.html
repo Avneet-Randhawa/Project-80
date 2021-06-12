@@ -17,8 +17,14 @@
         <span class="Left">5</span><input class="Left" id="input-5" placeholder="Input 5">                        <span class="right_sn">5</span><input id="inputs-5" class="right" placeholder="Input 5"><br><br>
         <span class="Left">6</span><input class="Left" id="input-6" placeholder="Input 6">                        <span class="right_sn">6</span><input id="inputs-6" class="right" placeholder="Input 6"><br><br>
                <button onclick="get1()" id="get-1">Get Paragraph 1</button>                          <button onclick="get2()" id="get-2">Get Paragraph 2</button>   
-                <br><div id="text1"></div><div id="text2"></div>
-            </body>
+                <br>
+                <center>
+                <div id="text1"></div>
+                <br><br><br><br>
+                <div id="text2"></div><br>
+                <button class="Left" onclick="cleartext1()">Clear Text Paragraph 1</button><button class="right" onclick="cleartext()">Clear Text Paragraph 2</button>
+                </center>
+            
     <script>
         function get1(){
         var inputs = [] ;
@@ -36,5 +42,14 @@
         input.join(". ")
         document.getElementById("text2").innerHTML= input.join(". ");
     }
+    function cleartext1(){
+        
+        document.getElementById("text1").innerHTML= "";
+    }
+    function cleartext(){
+        
+        document.getElementById("text2").innerHTML= "";
+    }
     </script>
+    </body>
 </htmL>
