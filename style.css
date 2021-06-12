@@ -11,6 +11,15 @@ body{
 #b{
     float: right;
 }
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.right_sn{
+    margin-right: -1145px;
+}
 #get-1{
     float: left;
 }
